@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(13, 17, 23);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: white;
+}
+#heading{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+}
+#main{
+    margin : 10px 10px 10px 10px;
+    padding: 4px 4px 4px 4px;
+    border: white solid 2px;
+    border-radius: 5px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#textarea{
+    text-align: right;
+    margin: 10px 10px 14px 10px;
+    font-size: 50px;
+    width: 93%;
+    border: white solid 1px;
+    border-radius: 2px;
+    padding: 4px 4px 4px 4px;
+}
+#icon_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    margin: 2px 2px 2px 2px;
+    font-size: 22px;
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+}
+
